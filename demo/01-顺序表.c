@@ -6,11 +6,10 @@ typedef int E;
 
 //表
 struct List {
-E * array;   //指向顺序表的底层数组
-int capacity;   //数组的容量
-int size;   //表中的元素数量
+    E * array;   //指向顺序表的底层数组
+    int capacity;   //数组的容量
+    int size;   //表中的元素数量
 };
-
 
 //初始化函数,申请空间
 _Bool initList(struct List *list,int capacity){
