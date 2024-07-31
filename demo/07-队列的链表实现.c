@@ -5,10 +5,10 @@ typedef int E;
 
 struct LNode{
     E element;
-    struct LNode * next;
+    struct LinkList  next;
 };
 
-typedef struct LNode * Node;
+typedef struct LinkList  Node;
 
 struct Queue{
     Node front,rear;
